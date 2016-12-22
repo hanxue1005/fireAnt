@@ -48,10 +48,10 @@ a:hover{ color:#2288f6;}
 	height: 125px;
 	background-size: 100% 100%;
 	box-shadow:2px 2px 10px #000; 
-	border-radius:2px 2px 2% 2px; 
 }
 .a1{
 	display: inline-block;
+	border-radius:50%;
 	width: 130px;
 	height: 130px;
 	margin-bottom: 15px;
@@ -144,6 +144,12 @@ a:hover{ color:#2288f6;}
 	margin: 0;
 }
 /* --------------经典案例-------------- */
+/*commin*/
+.title{ width:1000px; margin:0 auto; padding:60px 100px 46px; text-align:center; font-size:14px; color:#666;}
+.title .line{ display:block; width:100%; height:1px; background:#ccc; margin-bottom:-16px;}
+.title h2{ width:168px; color:#333; font-size:24px; text-align:center; margin:0 auto; background:#fafafa;}
+.title .eng{ margin-bottom:14px;}
+.title p{ width:840px; margin:0 auto; color:#666; line-height:24px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .case{ margin-bottom:60px;}
 .case .title h2{ background:#fff;}
 .case .tab{ position:relative;}

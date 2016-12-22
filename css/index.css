@@ -53,7 +53,7 @@ a:hover{ color:#2288f6;}
 .serve .content li p{ color:#666; font-size:14px; line-height:24px; width:234px; margin:0 auto 34px;}
 .serve .content li a{ display:block; width:150px; height:38px; margin:0 auto; text-align:center; line-height:38px; color:#ff9412; font-weight:bold; border-radius:4px; border:1px solid #ff9412;}
 .serve .content li a.links{ background:#ff9412; color:#fff;}
-.serve .content li a:hover{ background:#ff9412; color:#fff;}
+/* .serve .content li a:hover{ background:#ff9412; color:#fff;} */
 
 
 .case{ margin-bottom:60px;}

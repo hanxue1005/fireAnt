@@ -194,6 +194,19 @@ function move(obj,json,options){
     },30);
 }
 
+//  获取child 第一个孩子和最后一个孩子
+    function getChild(obj){
+        var firstChild = obj.firstElementChild || obj.firstChild;
+        var lastChild = obj.lastElementChild || obj.lastChild;
+        return {first:firstChild,last:lastChild};
+    }
+    
+// 获取sibling 上一个兄弟和下一个兄弟
+    function getSibling(obj){
+        var n = obj.nextElementSibling || obj.nextSibling;
+        var p = obj.previousElementSibling || obj.previousSibling;
+        return {next:n,prev:p};
+    }
 
 
 
